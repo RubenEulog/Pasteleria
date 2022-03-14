@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>Pasteleria El Sabroso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="titulo">
+        <!-- <h1>Pasteleria</h1> -->
+        <img src="img/Logo.png" width="400"/>
+    </header>
+    <section>
+        <h2>Sabores de Pastel</h2>    
+        <div class="inline-block">
+            <img src="img/1.jpg" width="200"/>
+            <p>Pastel Rico</p>
+            <p>$400</p>
+        </div>
+        <div class="inline-block">
+            <img src="img/2.jpg" width="200"/>
+            <p>Pastel Rico 2</p>
+            <p>$400</p>
+        </div>
+        <div class="inline-block">
+            <img src="img/3.jpg" width="200"/>
+            <p>Pastel Rico 3</p>
+            <p>$400</p>
+        </div>
+        <div class="inline-block">
+            <img src="img/4.jpg" width="200"/>
+            <p>Pastel Rico 4</p>
+            <p>$400</p>
+        </div>
+    </section>
+    <section>
+        <h2>Adornos de Pastel</h2>    
+        <div class="inline-block">
+            <img src="img/5.png" width="200"/>
+            <p>Adorno Fiesta 1</p>
+            <p>$200</p>
+        </div>
+        <div class="inline-block">
+            <img src="img/6.png" width="200"/>
+            <p>Adorno Fiesta 2</p>
+            <p>$200</p>
+        </div>
+        <div class="inline-block">
+            <img src="img/7.png" width="200"/>
+            <p>Adorno Fiesta 3</p>
+            <p>$200</p>
+        </div>
+        <div class="inline-block">
+            <img src="img/8.png" width="200"/>
+            <p>Adorno Fiesta 4</p>
+            <p>$200</p>
+        </div>
+    </section>
+    <section>
+        <h2>Formulario de Pedido</h2> 
+        <form action="/formulario" method="GET">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Coloca tu Nombre"/>
+            <br>
+            <label for="Telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Coloca numero de contacto"/>
+            <br>
+            <label for="email">email</label>
+            <input type="email" id="mail" name="mail" placeholder="Coloca tu email"/>
+            <br>
+            <label for="comentario">Comentario</label>
+            <br>
+            <textarea cols="40" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+            <br>
+            <button type="reset">Cancelar</button>
+            <button type="submit">Enviar</button>      
+        </form>
+    </section>
+    <footer>
+        <section>
+            <a href="#titulo">Ir arriba</a>
+            <a href="mailto:regonzalezvr@gmail.com">Contacto</a>
+        </section> 
+        <p>Visitanos en:</p>      
+        <p>Direccion: Av. Simpre Viva #163, Centro, Mexico.</p>
+        <p>Tel: 555-555-5555</p>
+        <p>Horario de atencion: Lunes a Sabado 10:00 hrs a 19:00 hrs</p>
+        <p>Copyright 2022</p>
+    </footer>
+</body>
+</html>

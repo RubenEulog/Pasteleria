@@ -1,0 +1,47 @@
+html{
+    font-family: 'Catamaran', sans-serif;
+}
+
+body{
+    margin:0;
+    background-color: #efefef;
+}
+header{
+    background-color: #accfee;
+    color: white;
+    padding: 3rem;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+}
+
+section h2{
+    margin: 1rem;
+}
+section p{
+    margin: 0.25rem;
+}
+
+footer{
+    background-color:#B28B84;
+    padding: 3rem;
+    color:#fff;
+}
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
